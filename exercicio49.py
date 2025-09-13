@@ -31,4 +31,5 @@ valor_hora = salario_bruto / horas_trabalhada
 acrescimo_he = hora_extra * (valor_hora * 1.5)
 salario_liquido = salario_bruto - inss - irrf - vt + acrescimo_he
 
-print(f"Salário líquido: R$ {salario_liquido:.2f}")
+print(f"\nSalário Bruto: {salario_bruto} \nDesconto INSS: {inss:.2f} \nDesconto IRRF: {irrf:.2f} \nDesconto Vale Transporte: {vt:.2f}" 
+f"\nValor de horas extras: {vt:.2f} \nSalário líquido (a receber): R$ {salario_liquido:.2f}")
