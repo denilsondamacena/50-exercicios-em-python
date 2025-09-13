@@ -1,5 +1,5 @@
 '''7. Escreva um programa que calcule o perímetro de um círculo.'''
 
-raio=float(input("Digite o valor do raid do cícurlo: "))
+raio=float(input("Digite o valor do raio do cícurlo: "))
 perimetro=(2*3.14*raio)
 print(f"O perímetro do cícurlo é de {perimetro:.2f}")
